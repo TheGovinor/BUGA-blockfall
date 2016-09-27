@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{37018D6F-5060-FAC4-2944-C7014B05D6E1}") = "BUGA BlockFall", "Assembly-CSharp.csproj", "{384834B0-8257-6C93-2B0B-F72524C8A2CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{384834B0-8257-6C93-2B0B-F72524C8A2CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384834B0-8257-6C93-2B0B-F72524C8A2CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384834B0-8257-6C93-2B0B-F72524C8A2CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384834B0-8257-6C93-2B0B-F72524C8A2CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
