@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{384834B0-8257-6C93-2B0B-F72524C8A2CD}</ProjectGuid>
+    <ProjectGuid>{27B80207-2F29-7AED-18CB-0F452EEAF2D2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,7 +45,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\EmptyCSharpFile.cs" />
+     <Compile Include="Assets\Scripts\EmptyClass.cs" />
+     <Compile Include="Assets\Scripts\EmptyEnumeration.cs" />
      <Compile Include="Assets\Scripts\LevelGen.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
