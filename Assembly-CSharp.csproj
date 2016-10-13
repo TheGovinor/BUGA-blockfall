@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AreaAttacker.cs" />
+     <Compile Include="Assets\Scripts\FallCollider.cs" />
      <Compile Include="Assets\Scripts\LevelGen.cs" />
      <Compile Include="Assets\Scripts\LineAttacker.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />

@@ -9,26 +9,24 @@ using UnityEngine.Networking;
 */
 public class Player : NetworkBehaviour {
 
-	protected int lives;
+	protected int lives = 3;
 	public Rigidbody rigid;
 	NetworkTransform netTransform;
 
-	float speed = 5f;
+	public float speed = 5f;
 
 	// Use this for initialization
 	void Start () {
 		rigid = this.GetComponent<Rigidbody> ();
 
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		if (!isLocalPlayer)
-			return;
 
-		transform.Translate (new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0, Input.GetAxis ("Vertical") * Time.deltaTime * speed));
-
-		
-	
+	void Attack ()
+	{
+		//empty method to be overridden by child class
+	}
+	void PlayerDied()
+	{
+		lives -= 1;
 	}
 }
