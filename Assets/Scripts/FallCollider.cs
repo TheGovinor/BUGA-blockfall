@@ -2,7 +2,12 @@
 using System.Collections;
 
 public class FallCollider : MonoBehaviour {
+	LevelGen lvl;
 
+	void Start()
+	{
+		lvl = GameObject.FindGameObjectWithTag ("GameController").GetComponent<LevelGen>();
+	}
 
 	void OnTriggerEnter(Collider col)
 	{	
@@ -15,6 +20,8 @@ public class FallCollider : MonoBehaviour {
 			col.transform.position = new Vector3 ((int)col.transform.position.x, 0, (int)col.transform.position.z);
 		}
 		if (col.tag == "Player") {
+			
+			col.transform.position = new Vector3 (Random.Range (0, lvl.dimensionX), 3, Random.Range (0, lvl.dimensionY));
 			col.SendMessage ("PlayerDied");
 		}
 	}
